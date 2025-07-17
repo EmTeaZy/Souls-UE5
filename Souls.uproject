@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{A0DB2C0B-416D-809A-5662-EB89A4F8515A}",
+	"EngineAssociation": "{B33CE71B-4954-3DA7-8577-78AE3111310E}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "Souls",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
